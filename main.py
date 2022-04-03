@@ -12,8 +12,7 @@ import os
 # ser = Service('./chromedriver')
 # wd = webdriver.Chrome(service = ser)
 wd = webdriver.Chrome(ChromeDriverManager().install())
-# url = 'https://www.airportal.go.kr/knowledge/airports/KfMain01.jsp?df_area=IATA%C4%DA%B5%E5'
-url = 'https://www.airportal.go.kr/knowledge/airports/KfMain01.jsp?df_area=IATA%C4%DA%B5%E5&df_start=7660&df_end=7666&df_count=10&df_search_target=&df_search_keyword=&df_sort=&df_desc=&df_search_keyword2=null'
+url = '//url//'
 wd.get(url)
 #699~766
 #airport 공항명
